@@ -1,0 +1,24 @@
+==========================================
+SLURM_CLUSTER_NAME = paramboson
+SLURM_ARRAY_JOB_ID = 
+SLURM_ARRAY_TASK_ID = 
+SLURM_ARRAY_TASK_COUNT = 
+SLURM_ARRAY_TASK_MAX = 
+SLURM_ARRAY_TASK_MIN = 
+SLURM_JOB_ACCOUNT = cdac
+SLURM_JOB_ID = 13217
+SLURM_JOB_NAME = mpi_job
+SLURM_JOB_NODELIST = rbhm[004-007]
+SLURM_JOB_USER = cdacapp01
+SLURM_JOB_UID = 60027
+SLURM_JOB_PARTITION = standard
+SLURM_TASK_PID = 1516184
+SLURM_SUBMIT_DIR = /home/cdacapp01/SNBOSE_DEMO/Slurm/cpu/multinode
+SLURM_CPUS_ON_NODE = 1
+SLURM_NTASKS = 4
+SLURM_TASK_PID = 1516184
+==========================================
+Hello from process 2 of 4 on node rbhm004
+Hello from process 3 of 4 on node rbhm004
+Hello from process 0 of 4 on node rbhm004
+Hello from process 1 of 4 on node rbhm004

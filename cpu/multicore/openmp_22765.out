@@ -1,0 +1,31 @@
+==========================================
+CUDA_VISIBLE_DEVICES = 
+SLURM_JOB_GPUS = 
+CUDA_MPS_ACTIVE_THREAD_PERCENTAGE = 
+SLURM_CPUS_ON_NODE = 4
+SLURM_NTASKS = 1
+SLURM_TASK_PID = 7060
+SLURM_MEM_PER_CPU = 
+==========================================
+==========================================
+SLURM_CLUSTER_NAME = paramprabha
+SLURM_ARRAY_JOB_ID = 
+SLURM_ARRAY_TASK_ID = 
+SLURM_ARRAY_TASK_COUNT = 
+SLURM_ARRAY_TASK_MAX = 
+SLURM_ARRAY_TASK_MIN = 
+SLURM_JOB_ACCOUNT = cdac
+SLURM_JOB_ID = 22765
+SLURM_JOB_NAME = openmp_job
+SLURM_JOB_NODELIST = rpgpur017
+SLURM_JOB_USER = appadmin
+SLURM_JOB_UID = 52015
+SLURM_JOB_PARTITION = standard
+SLURM_TASK_PID = 7060
+SLURM_SUBMIT_DIR = /home/appadmin/Parikshit/IUAC_DEMO/Slurm/cpu/multicore
+SLURM_CPUS_ON_NODE = 4
+SLURM_NTASKS = 1
+SLURM_TASK_PID = 7060
+==========================================
+rpgpur017
+elapsed time = 5.887822 seconds.

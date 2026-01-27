@@ -1,0 +1,81 @@
+==========================================
+SLURM_CLUSTER_NAME = paramboson
+SLURM_ARRAY_JOB_ID = 
+SLURM_ARRAY_TASK_ID = 
+SLURM_ARRAY_TASK_COUNT = 
+SLURM_ARRAY_TASK_MAX = 
+SLURM_ARRAY_TASK_MIN = 
+SLURM_JOB_ACCOUNT = cdac
+SLURM_JOB_ID = 104927
+SLURM_JOB_NAME = HelloHybrid
+SLURM_JOB_NODELIST = rbcn[078-079]
+SLURM_JOB_USER = cdacapp01
+SLURM_JOB_UID = 60027
+SLURM_JOB_PARTITION = standard
+SLURM_TASK_PID = 574157
+SLURM_SUBMIT_DIR = /home/cdacapp01/SNBOSE_DEMO/Slurm/hybride/cpu
+SLURM_CPUS_ON_NODE = 6
+SLURM_NTASKS = 4
+SLURM_TASK_PID = 574157
+==========================================
+[1;31m==>[0m Error: unexpected characters in the spec string
+openmpi/kmaehjs:
+[1;31m               ^[0m
+--------------------------------------------------------------------------
+The application appears to have been direct launched using "srun",
+but OMPI was not built with SLURM support. This usually happens
+when OMPI was not configured --with-slurm and we weren't able
+to discover a SLURM installation in the usual places.
+
+Please configure as appropriate and try again.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+The application appears to have been direct launched using "srun",
+but OMPI was not built with SLURM support. This usually happens
+when OMPI was not configured --with-slurm and we weren't able
+to discover a SLURM installation in the usual places.
+
+Please configure as appropriate and try again.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+The application appears to have been direct launched using "srun",
+but OMPI was not built with SLURM support. This usually happens
+when OMPI was not configured --with-slurm and we weren't able
+to discover a SLURM installation in the usual places.
+
+Please configure as appropriate and try again.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+The application appears to have been direct launched using "srun",
+but OMPI was not built with SLURM support. This usually happens
+when OMPI was not configured --with-slurm and we weren't able
+to discover a SLURM installation in the usual places.
+
+Please configure as appropriate and try again.
+--------------------------------------------------------------------------
+*** An error occurred in MPI_Init
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+*** An error occurred in MPI_Init
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+*** An error occurred in MPI_Init
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[rbcn078:574205] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+[rbcn078:574204] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[rbcn079:2608209] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+[rbcn079:2608208] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+--------------------------------------------------------------------------
+prterun detected that one or more processes exited with non-zero status,
+thus causing the job to be terminated. The first process to do so was:
+
+   Process name: [prterun-rbcn078-574193@1,0] Exit code:    1
+--------------------------------------------------------------------------
